@@ -1,0 +1,140 @@
+body {
+    text-align: center;
+    font-family: 'Roboto', arial;
+}
+.Hero-Main-text{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 800;
+    padding-right: 20px;
+}
+.Hero-Secondary-text, .Hero-Link-Text{
+    color:#F9FAF8;
+    font-size: 18px;
+    padding-left: 10px
+}
+.Top-section img{
+    height: 80px;
+    color:#F9FAF8;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.Logo-Text{
+    padding: 20px;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.Hero{
+    background-color: #c57742;
+}
+.Services-section{
+    background-color: #f9ddb1;
+}
+.Sign-Up{
+    color:#F9FAF8;
+    background-color:#ff9248;
+    padding: 10px;
+    display: block;
+    width: 110px;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+}
+.Second-section img{
+    height: 300px;
+    padding: 20px;
+}
+.Left-content{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    align-items: center;
+}
+.information{
+    color:#c57742;
+    font-weight: 800;
+    font-size: 36px;
+}
+.quote-section{
+    background-color: #f5c77e;
+    display: flex;
+    flex-direction: column;
+    padding: 0 200px;
+}
+.quote-text{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+}
+.call-to-action-section{
+    background-color: #ff9248;
+    color: #F9FAF8;
+    display: flex;
+    padding: 10px 80px;
+    margin: 40px 80px;
+    align-items: center;
+    border-radius: 5px;
+    border-color: none;
+}
+.call-to-action-section div{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+.sign-up{
+    color: #fff;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    background-color: #ff9248;
+    padding: 5px 25px;
+    font-size: 15px;
+}
+.Top-section{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    align-items: center;
+}
+.Hero-Link-Text{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    align-items: center;
+    justify-content: end;
+    padding-right: 50px;
+}
+.Hero-Link-Text p{
+    padding: 15px;
+}
+.Second-section{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-around;
+}
+.information{
+    align-items: center;
+}
+.information-images{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.information-images div{
+    padding: 20px;
+}
+.information-images img{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border: 4px solid #ff9248;
+    border-radius: 15px;
+    margin: 5px 20px 0px 20px;
+}
+.author{
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    text-align: right;
+}
